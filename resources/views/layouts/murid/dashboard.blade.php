@@ -65,7 +65,7 @@
                 <div class="card-body">
                     <i class="fas fa-tasks fa-2x mb-3"></i>
                     <h5 class="card-title">Request Aktif</h5>
-                    <p class="card-text display-4">{{ $activeRequests }}</p>
+<!--                     <p class="card-text display-4">{{ $activeRequests }}</p> -->
                     <a href="{{ route('murid.requests') }}" class="detail-link">Lihat Detail</a>
                 </div>
             </div>
