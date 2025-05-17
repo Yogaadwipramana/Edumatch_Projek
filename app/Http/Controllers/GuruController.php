@@ -12,7 +12,6 @@ class GuruController extends Controller
     // Halaman dashboard guru
     public function dashboard()
     {
-        $pendingRequests = Request::where('status', 'pending')->count(); // Sesuaikan nama field jika perlu
 
         return view('layouts.guru.dashboard', compact('pendingRequests')); // Pastikan path view sesuai
     }
